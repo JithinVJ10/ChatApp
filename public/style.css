@@ -1,0 +1,121 @@
+.chat-container {
+    max-width: 600px;
+    margin: 20px auto; /* Center the chat container and add vertical spacing */
+    border: 2px solid #ebebeb; /* Sky blue border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    border-radius: 10px; /* Rounded corners */
+  }
+
+  .message-container{
+    height: 400px; /* Adjust this height as needed */
+    overflow-y: scroll;
+  }
+
+
+  .name-space {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9; /* Light background color */
+    border-bottom: 1px solid #ddd; /* Bottom border to separate from chat area */
+    padding: 10px 20px;
+  }
+  .name-input {
+    flex-grow: 1;
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    outline: none;
+  }
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid #fdfdfd; /* Example border for chat window */
+    max-width: 600px;
+    margin: auto;
+  }
+  .message-right {
+    align-self: flex-end;
+    background-color: #d1e7dd; /* Example styling */
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 80%; /* Example styling */
+    display: flex;
+    flex-direction: column;
+}
+
+.message-left {
+    align-self: flex-start;
+    background-color: #d8d4d4; /* Example styling */
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 80%; /* Example styling */
+    display: flex;
+    flex-direction: column;
+}
+
+.message-name {
+    font-weight: bold;
+    color: #007bff; /* Example styling for name */
+    margin-bottom: 5px; /* Space between name and message */
+}
+
+.message {
+    margin: 5px 0; /* Space between message and time */
+}
+
+.message-time {
+    font-size: 0.8em;
+    color: #6c757d; /* Example styling for time */
+    align-self: flex-end; /* Align the time to the right */
+}
+  .message-typing {
+    padding-left: 10px;
+    font-style: italic;
+  }
+  .message-form {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #ccc; /* Example border for form */
+    margin-top: 10px;
+  }
+  .message-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+  }
+  .diver {
+    margin: 0 10px;
+    height: 20px;
+  }
+  .message-form button {
+    background-color: #4caf50; /* Example green button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  }
+  .message-form button:hover {
+    background-color: #45a049;
+  }
+  .message-form button span {
+    margin-left: 5px;
+  }
